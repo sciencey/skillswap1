@@ -25,5 +25,6 @@ SkillSwap is a peer-to-peer skill exchange platform that facilitates the matchin
 - **Backend**: Supabase (Authentication, Database, Storage)
 - **Deployment**: Vercel
 
-## Project Structure
+## Online view
+https://skill-exchange-platform1.vercel.app/
 
