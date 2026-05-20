@@ -3,7 +3,7 @@ import { BookOpen, Clock, Users, Calendar, MessageSquare, Star } from "lucide-re
 
 export default function HowItWorks() {
   return (
-    <div className="container py-10">
+    <div className="mx-auto w-full max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
       <div className="max-w-3xl mx-auto text-center mb-10">
         <h1 className="text-4xl font-bold mb-4">How SkillSwap Works</h1>
         <p className="text-xl text-muted-foreground">
