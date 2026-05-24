@@ -26,5 +26,5 @@ SkillSwap is a peer-to-peer skill exchange platform that facilitates the matchin
 - **Deployment**: Vercel
 
 ## Online view
-https://skill-exchange-platform1.vercel.app/
+https://skillswap1.vercel.app/
 
