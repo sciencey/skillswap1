@@ -2,7 +2,7 @@
 
 import type React from "react"
 
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { useRouter } from "next/navigation"
 import { useSupabase } from "@/lib/supabase-provider"
 import { Button } from "@/components/ui/button"
@@ -27,8 +27,13 @@ export default function Onboarding() {
   const [error, setError] = useState<string | null>(null)
   const [isLoading, setIsLoading] = useState(false)
 
+  useEffect(() => {
+    if (!session) {
+      router.push("/login")
+    }
+  }, [router, session])
+
   if (!session) {
-    router.push("/login")
     return null
   }
 
@@ -188,4 +193,3 @@ export default function Onboarding() {
     </div>
   )
 }
-
